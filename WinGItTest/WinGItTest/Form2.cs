@@ -16,5 +16,10 @@ namespace WinGItTest
         {
             InitializeComponent();
         }
+
+        private void AlexForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
