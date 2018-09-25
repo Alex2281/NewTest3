@@ -27,7 +27,8 @@ namespace WinGItTest
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            RyanForm f2 = new RyanForm();
+            f2.ShowDialog();
         }
 
         private void button3_Click(object sender, EventArgs e)
