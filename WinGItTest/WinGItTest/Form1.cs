@@ -22,7 +22,7 @@ namespace WinGItTest
         private void button1_Click(object sender, EventArgs e)
         {
             AlexForm f1 = new AlexForm();
-            f1.Show();
+            f1.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
