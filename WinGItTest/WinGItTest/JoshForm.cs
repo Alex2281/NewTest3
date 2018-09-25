@@ -10,27 +10,16 @@ using System.Windows.Forms;
 
 namespace WinGItTest
 {
-    public partial class Form1 : Form
+    public partial class JoshForm : Form
     {
-        public Form1()
+        public JoshForm()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            JoshForm f3 = new JoshForm();
-            f3.ShowDialog();
+            this.Close();
         }
     }
 }
