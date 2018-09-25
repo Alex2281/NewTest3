@@ -37,6 +37,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Name = "AlexForm";
             this.Text = "AlexForm";
+            this.Load += new System.EventHandler(this.AlexForm_Load);
             this.ResumeLayout(false);
 
         }
